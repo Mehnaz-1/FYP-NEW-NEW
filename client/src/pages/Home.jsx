@@ -12,7 +12,7 @@ export default function Home() {
   const [offerListings, setOfferListings] = useState([]);
   const [saleListings, setSaleListings] = useState([]);
   const [rentListings, setRentListings] = useState([]);
-  SwiperCore.use([Navigation]) 
+  SwiperCore.use([Navigation])
 
   useEffect(() => {
     const fetchOfferListings = async () => {
@@ -52,13 +52,13 @@ export default function Home() {
     <div>
       {/* top */}
       <div className="flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto">
-        <h1 className='text-slate-700 font-bold text-3xl lg:text-6xl'>Find your next <span className='text-slate-500'>perfect</span> <br />
-          place with ease.
+        <h1 className='text-slate-700 font-bold text-3xl lg:text-6xl'>Household Services, <br /> Revolutionized <span className='text-slate-500'> <br />
+        – Convenience and Trust at Your Fingertips!"</span>
         </h1>
         <div className="text-gray-400 text-xs sm:text-sm">
-          Sahand Real Estate is the best is the best place to find your next perfect place to live.
+          House Hold Services is the best is the best place to find your next perfect worker.
           <br />
-          We are the best place to find your next perfect place to live with wide range of properties to choose from.
+          We are the best place to find expereinced and skill houdehold servicer.
         </div>
         <Link to={'/search'} className='text-xs  sm:text-sm text-blue-800 font-bold hover:underline'>
           Let's get started...
