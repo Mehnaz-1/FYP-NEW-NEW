@@ -126,9 +126,36 @@ export default function Services() {
                     <div><img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className=' md:w-60  h-44' /></div>
                 </section>
 
+            </section> <br /> <br /> <br />
 
-            </section>
-
+<section className="max-w-7xl mx-auto p-8 flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
+        <div className="md:w-1/2">
+            <h2>
+                <span className="text-green-700 font-bold">FAQ</span>
+            </h2>
+            <h1 className="font-bold text-3xl md:text-5xl mt-4">
+                Frequently Asked <br />Questions
+            </h1>
+            <p className="mt-4">
+                Find answers to the most common questions about our services.
+            </p>
+        </div>
+        <div className="md:w-1/2 space-y-6">
+            <div className="border border-grey p-4 rounded-lg hover:shadow-2xl">
+                <h2 className="font-bold text-xl mt-6">How do I book a service?</h2>
+                <p className='mt-7'>Simply browse our services, select your preferred time, and confirm your booking.</p>
+            </div>
+            <div className="border border-grey p-4 rounded-lg  hover:shadow-2xl">
+                <h2 className="font-bold text-xl mt-6">Are the professionals vetted?</h2>
+                <p className='mt-7'>Yes, all our professionals are thoroughly vetted and background checked.</p>
+            </div>
+            <div className="border border-grey p-4 rounded-lg  hover:shadow-2xl">
+                <h2 className="font-bold text-xl mt-6">What payment methods do you accept?</h2>
+                <p className='mt-7'>We accept payments via integrated blockchain solutions for security and transparency.</p>
+            </div>
+        </div>
+        
+    </section>
 
 
 
