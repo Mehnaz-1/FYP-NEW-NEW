@@ -203,6 +203,24 @@ export default function Services() {
                                     <span className='font-bold '>Start a conversation</span>
                                 </button>
                             </div>
+                            <div className='text-center'>
+                                <h1 className='text-[33px] font-semibold'>
+                                    Customer Support
+                                </h1>
+                                <p className='font-thin text-[20px]'>Get assistance with any inquiries or issues.</p>
+                                <button className='border p-2 rounded-md text-green-500 bg-[#ffff] transition transform ease-in-out hover:scale-105'>
+                                    <span className='font-bold '>Start a conversation</span>
+                                </button>
+                            </div>
+                            <div className='text-center'>
+                                <h1 className='text-[33px] font-semibold'>
+                                    Customer Support
+                                </h1>
+                                <p className='font-thin text-[20px]'>Get assistance with any inquiries or issues.</p>
+                                <button className='border p-2 rounded-md text-green-500 bg-[#ffff] transition transform ease-in-out hover:scale-105'>
+                                    <span className='font-bold '>Start a conversation</span>
+                                </button>
+                            </div>
                         </div>
 
                     </div>
