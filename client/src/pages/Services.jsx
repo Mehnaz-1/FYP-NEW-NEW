@@ -174,7 +174,7 @@ export default function Services() {
                     <p>Have questions or need support? Reach out to us</p>
                 </div>
                 <div>
-                    <div className=' items-center justify-around ml-96 mt-14'>
+                    <div className=' items-center justify-around ml-auto mt-14'>
                         <div className='font-medium text-2xl mr-5 flex flex-col items-center w-full sm:w-[45%] md:w-[30%] mb-8'>
                             <div>
                                 <AiFillCustomerService className='text-[43px]' />
