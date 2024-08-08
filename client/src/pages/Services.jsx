@@ -109,22 +109,22 @@ export default function Services() {
                 </div>
                 <section className='flex flex-wrap border-r-6 space-x-4'>
   <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'>
-    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-full h-auto' />
+    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-45 h-60' />
   </div>
   <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'>
-    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-full h-auto' />
+    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-45 h-60' />
   </div>
   <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'>
-    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-full h-auto' />
+    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-45 h-60' />
   </div>
   <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'>
-    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-full h-auto' />
+    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-45 h-60' />
   </div>
   <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'>
-    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-full h-auto' />
+    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-45 h-60' />
   </div>
   <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'>
-    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-full h-auto' />
+    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-45 h-60' />
   </div>
 </section>
 
