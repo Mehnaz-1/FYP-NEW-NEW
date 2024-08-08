@@ -42,7 +42,7 @@ export default function Services() {
                 <section class="py-8 bg-gray-100">
                     <div class="container mx-auto">
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                            <div class="bg-lime-300 p-6 rounded-lg shadow-md hover:bg-lime-500">
+                            <div class="bg-lime-300 p-6 rounded-lg shadow-md hover:bg-lime-500 cursor-pointer">
                                 <h2 class="text-lg font-semibold mb-2 text-center">Plumbing</h2>
                                 <p class="text-gray-700 text-center">1500</p>
                                 <div>
@@ -94,37 +94,39 @@ export default function Services() {
 
             </section>
             <section>
-                <div class="max-w-3xl mx-auto p-8 rounded-lg  ml-10">
-                    <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6 ml-1 space-x-6">
+                <div class="max-w-3xl mx-auto p-8 rounded-lg ml-10">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6 ml-1">
                         Our Work Gallery
                     </h1>
-                    <div className='flex '>
-                        <p class="text-lg sm:text-xl text-gray-700 mb-4 space-x-8">
+                    <div class="flex flex-col sm:flex-row">
+                        <p class="text-lg sm:text-xl text-gray-700 mb-4 sm:mr-8">
                             We offer a variety of household maintenance services tailored to meet your needs.
                         </p>
-                        <div class="text-lg sm:text-xl text-gray-700 flex flex-col sm:flex-row">
-                            <p class="mb-4 sm:mb-0 sm:mr-4">
-                                Our services are designed to provide you with the highest level of convenience and satisfaction.
-                            </p>
-                        </div>
+                        <p class="text-lg sm:text-xl text-gray-700 mb-4 sm:mb-0">
+                            Our services are designed to provide you with the highest level of convenience and satisfaction.
+                        </p>
                     </div>
                 </div>
-                <section className='flex border-r-6 space-x-4 '>
-                    <div>
-                        <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className=' md:w-60  h-44' />
-                    </div>
-                    <div>
-                        <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className=' md:w-60  h-44' />
-                    </div>
-                    <div>
-                        <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className=' md:w-60  h-44' />
-                    </div>
-                    <div>
-                        <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className=' md:w-60  h-44' />
-                    </div>
-                    <div><img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className=' md:w-60  h-44' /></div>
-                    <div><img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className=' md:w-60  h-44' /></div>
-                </section>
+                <section className='flex flex-wrap border-r-6 space-x-4'>
+  <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'>
+    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-full h-auto' />
+  </div>
+  <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'>
+    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-full h-auto' />
+  </div>
+  <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'>
+    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-full h-auto' />
+  </div>
+  <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'>
+    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-full h-auto' />
+  </div>
+  <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'>
+    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-full h-auto' />
+  </div>
+  <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2'>
+    <img src='https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1699615204070/a923ea0d9dc9c164891bada74f533c12.png' alt='Service Image' className='w-full h-auto' />
+  </div>
+</section>
 
             </section> <br /> <br /> <br />
 
@@ -168,64 +170,60 @@ export default function Services() {
             <section className=''>
                 <div className='flex flex-col items-center'>
 
-                    <h1 className='font-bold text-5xl mt-10'>Get in Touch</h1>
+                    <h1 className='font-bold text-5xl mt-10 mr-38'>Get in Touch</h1>
                     <p>Have questions or need support? Reach out to us</p>
                 </div>
                 <div>
-                    <div className='flex flex-wrap items-center justify-around '>
-                        <div className='font-bold text-2xl mr-5 flex flex-col items-center w-[30%] '>
+                    <div className=' items-center justify-around ml-96 mt-14'>
+                        <div className='font-medium text-2xl mr-5 flex flex-col items-center w-full sm:w-[45%] md:w-[30%] mb-8'>
                             <div>
                                 <AiFillCustomerService className='text-[43px]' />
-
                             </div>
                             <div className='text-center'>
                                 <h1 className='text-[33px] font-semibold'>
                                     Customer Support
                                 </h1>
                                 <p className='font-thin text-[20px]'>Get assistance with any inquiries or issues.</p>
-                                <button className='border p-2 rounded-md text-green-500 bg-[#ffff] transition transform ease-in-out hover:scale-105'>
+                                <button className='border p-2 rounded-md text-green-500 bg-white transition transform ease-in-out hover:scale-105'>
                                     <span className='font-bold '>Start a conversation</span>
                                 </button>
                             </div>
                         </div>
 
-                        <div className='font-bold text-2xl mr-5 flex flex-col items-center w-[30%] '>
+                        <div className='font-bold text-2xl mr-5 flex flex-col items-center w-full sm:w-[45%] md:w-[30%] mb-8'>
                             <div>
                                 <AiFillCustomerService className='text-[43px]' />
-
                             </div>
                             <div className='text-center'>
                                 <h1 className='text-[33px] font-semibold'>
-                                    Customer Support
+                                    Service Information
                                 </h1>
-                                <p className='font-thin text-[20px]'>Get assistance with any inquiries or issues.</p>
-                                <button className='border p-2 rounded-md text-green-500 bg-[#ffff] transition transform ease-in-out hover:scale-105'>
-                                    <span className='font-bold '>Start a conversation</span>
-                                </button>
-                            </div>
-                            <div className='text-center'>
-                                <h1 className='text-[33px] font-semibold'>
-                                    Customer Support
-                                </h1>
-                                <p className='font-thin text-[20px]'>Get assistance with any inquiries or issues.</p>
-                                <button className='border p-2 rounded-md text-green-500 bg-[#ffff] transition transform ease-in-out hover:scale-105'>
-                                    <span className='font-bold '>Start a conversation</span>
-                                </button>
-                            </div>
-                            <div className='text-center'>
-                                <h1 className='text-[33px] font-semibold'>
-                                    Customer Support
-                                </h1>
-                                <p className='font-thin text-[20px]'>Get assistance with any inquiries or issues.</p>
-                                <button className='border p-2 rounded-md text-green-500 bg-[#ffff] transition transform ease-in-out hover:scale-105'>
-                                    <span className='font-bold '>Start a conversation</span>
+                                <p className='font-thin text-[20px]'>Learn more about the services we offer</p>
+                                <button className='border p-2 rounded-md text-green-500 bg-white transition transform ease-in-out hover:scale-105'>
+                                    <span className='font-bold '>Learn More</span>
                                 </button>
                             </div>
                         </div>
 
+                        <div className='font-bold text-2xl mr-5 flex flex-col items-center w-full sm:w-[45%] md:w-[30%] mb-8'>
+                            <div>
+                                <AiFillCustomerService className='text-[43px]' />
+                            </div>
+                            <div className='text-center'>
+                                <h1 className='text-[33px] font-semibold'>
+                                    Partnerships
+                                </h1>
+                                <p className='font-thin text-[20px]'>Get assistance with any inquiries or issues.</p>
+                                <button className='border p-2 rounded-md text-green-500 bg-white transition transform ease-in-out hover:scale-105'>
+                                    <span className='font-bold '>Collaborate now</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
+        </section>
+       
+        
 
 
 
