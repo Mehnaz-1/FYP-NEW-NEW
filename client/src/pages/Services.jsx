@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { AiFillCustomerService } from "react-icons/ai";
 export default function Services() {
     return (
         <>
@@ -96,7 +96,7 @@ export default function Services() {
             <section>
                 <div class="max-w-3xl mx-auto p-8 rounded-lg  ml-10">
                     <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6 ml-1 space-x-6">
-                    Our Work Gallery
+                        Our Work Gallery
                     </h1>
                     <div className='flex '>
                         <p class="text-lg sm:text-xl text-gray-700 mb-4 space-x-8">
@@ -128,34 +128,87 @@ export default function Services() {
 
             </section> <br /> <br /> <br />
 
-<section className="max-w-7xl mx-auto p-8 flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
-        <div className="md:w-1/2">
-            <h2>
-                <span className="text-green-700 font-bold">FAQ</span>
-            </h2>
-            <h1 className="font-bold text-3xl md:text-5xl mt-4">
-                Frequently Asked <br />Questions
-            </h1>
-            <p className="mt-4">
-                Find answers to the most common questions about our services.
-            </p>
-        </div>
-        <div className="md:w-1/2 space-y-6">
-            <div className="border border-grey p-4 rounded-lg hover:shadow-2xl">
-                <h2 className="font-bold text-xl mt-6">How do I book a service?</h2>
-                <p className='mt-7'>Simply browse our services, select your preferred time, and confirm your booking.</p>
-            </div>
-            <div className="border border-grey p-4 rounded-lg  hover:shadow-2xl">
-                <h2 className="font-bold text-xl mt-6">Are the professionals vetted?</h2>
-                <p className='mt-7'>Yes, all our professionals are thoroughly vetted and background checked.</p>
-            </div>
-            <div className="border border-grey p-4 rounded-lg  hover:shadow-2xl">
-                <h2 className="font-bold text-xl mt-6">What payment methods do you accept?</h2>
-                <p className='mt-7'>We accept payments via integrated blockchain solutions for security and transparency.</p>
-            </div>
-        </div>
-        
-    </section>
+            <section className="max-w-7xl mx-auto p-8 flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
+                <div className="md:w-1/2">
+                    <h2>
+                        <span className="text-green-700 font-bold">FAQ</span>
+                    </h2>
+                    <h1 className="font-bold text-3xl md:text-5xl mt-4">
+                        Frequently Asked <br />Questions
+                    </h1>
+                    <p className="mt-4">
+                        Find answers to the most common questions about our services.
+                    </p>
+                </div>
+                <div className="md:w-1/2 space-y-6">
+                    <div className="border border-grey p-4 rounded-lg hover:shadow-2xl">
+                        <h2 className="font-bold text-xl mt-6">How do I book a service?</h2>
+                        <p className='mt-7'>Simply browse our services, select your preferred time, and confirm your booking.</p>
+                    </div>
+                    <div className="border border-grey p-4 rounded-lg  hover:shadow-2xl">
+                        <h2 className="font-bold text-xl mt-6">Are the professionals vetted?</h2>
+                        <p className='mt-7'>Yes, all our professionals are thoroughly vetted and background checked.</p>
+                    </div>
+                    <div className="border border-grey p-4 rounded-lg  hover:shadow-2xl">
+                        <h2 className="font-bold text-xl mt-6">What payment methods do you accept?</h2>
+                        <p className='mt-7'>We accept payments via integrated blockchain solutions for security and transparency.</p>
+                    </div>
+                    <div>
+                        <h2>
+                            <span className="text-green-700 font-bold  sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl hover:text-lime-500">
+                                Check all common questions
+                                <span className="text-green-700"> →</span>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+
+            </section> <br /> <br />
+
+            <section className=''>
+                <div className='flex flex-col items-center'>
+
+                    <h1 className='font-bold text-5xl mt-10'>Get in Touch</h1>
+                    <p>Have questions or need support? Reach out to us</p>
+                </div>
+                <div>
+                    <div className='flex flex-wrap items-center justify-around '>
+                        <div className='font-bold text-2xl mr-5 flex flex-col items-center w-[30%] '>
+                            <div>
+                                <AiFillCustomerService className='text-[43px]' />
+
+                            </div>
+                            <div className='text-center'>
+                                <h1 className='text-[33px] font-semibold'>
+                                    Customer Support
+                                </h1>
+                                <p className='font-thin text-[20px]'>Get assistance with any inquiries or issues.</p>
+                                <button className='border p-2 rounded-md text-green-500 bg-[#ffff] transition transform ease-in-out hover:scale-105'>
+                                    <span className='font-bold '>Start a conversation</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div className='font-bold text-2xl mr-5 flex flex-col items-center w-[30%] '>
+                            <div>
+                                <AiFillCustomerService className='text-[43px]' />
+
+                            </div>
+                            <div className='text-center'>
+                                <h1 className='text-[33px] font-semibold'>
+                                    Customer Support
+                                </h1>
+                                <p className='font-thin text-[20px]'>Get assistance with any inquiries or issues.</p>
+                                <button className='border p-2 rounded-md text-green-500 bg-[#ffff] transition transform ease-in-out hover:scale-105'>
+                                    <span className='font-bold '>Start a conversation</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
 
 
 
