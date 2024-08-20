@@ -58,9 +58,9 @@ export default function Services() {
                                 </div>
                             </div>
                             <div class="bg-lime-300 p-6 rounded-lg shadow-md hover:bg-lime-500 cursor-pointer flex space-x-10 ">
-                                <div className='border-black border-r-2 pr-6'>
+                                 <div className='border-black border-r-2 pr-6'>
                                     <i> <AiFillCustomerService className='text-[43px]' /></i>
-                                </div>
+                                </div> 
                                 <div>
                                     <h2 class="text-lg font-semibold mb-2 text-center">Electrical</h2>
                                     <p class="text-gray-700 text-center">1200</p>
