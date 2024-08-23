@@ -209,16 +209,16 @@ export default function Services() {
                     <h1 className='font-bold text-5xl mt-10 mr-38'>Get in Touch</h1>
                     <p>Have questions or need support? Reach out to us</p>
                 </div>
-                <div className="flex justify-center items-center flex-wrap">
+                <div className="flex justify-center items-center flex-wrap pt-20">
 
                     <div className="font-medium text-2xl flex flex-col items-center w-full sm:w-[45%] md:w-[30%] mb-8">
                         <div>
                             <AiFillCustomerService className="text-[43px]" />
                         </div>
-                        <div className="text-center">
+                        <div className="text-center ">
                             <h1 className="text-[33px] font-semibold">Customer Support</h1>
                             <p className="font-thin text-[20px]">Get assistance with any inquiries or issues.</p>
-                            <button className="border p-2 rounded-md text-green-500 bg-white transition transform ease-in-out hover:scale-105">
+                            <button className="border p-2 rounded-2xl text-green-500 bg-slate-500 transition transform ease-in-out hover:scale-105">
                                 <span className="font-medium">Start a conversation</span>
                             </button>
                         </div>
@@ -231,7 +231,7 @@ export default function Services() {
                         <div className="text-center">
                             <h1 className="text-[33px] font-semibold">Service Information</h1>
                             <p className="font-thin text-[20px]">Learn more about the services we offer</p>
-                            <button className="border p-2 rounded-md text-green-500 bg-white transition transform ease-in-out hover:scale-105">
+                            <button className="border p-2 rounded-2xl text-green-500 bg-slate-500 transition transform ease-in-out hover:scale-105">
                                 <span className="font-medium">Learn More</span>
                             </button>
                         </div>
@@ -244,8 +244,8 @@ export default function Services() {
                         <div className="text-center">
                             <h1 className="text-[33px] font-semibold">Partnerships</h1>
                             <p className="font-thin text-[20px]">Get assistance with any inquiries or issues.</p>
-                            <button className="border p-2 rounded-md text-green-500 bg-white transition transform ease-in-out hover:scale-105">
-                                <span className="font-medium">Collaborate now</span>
+                            <button className="border p-2 rounded-2xl text-green-500 bg-slate-500 transition transform ease-in-out hover:scale-105">
+                                <span className="font-medium ">Collaborate now</span>
                             </button>
                         </div>
                     </div>

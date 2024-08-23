@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { IoLogoLinkedin } from "react-icons/io";
 export default function About() {
   return (
     <>
@@ -107,6 +107,14 @@ export default function About() {
               <h1 className="text-white font-bold text-xl">Leonard Krasner</h1>
               <h3 className="text-slate-300 mt-2">CEO & Founder</h3>
             </div>
+            <div className='flex justify-center mt-2 space-x-4 text-white text-2xl md:text-3xl lg:text-4xl'>
+              <div>
+                <i><IoLogoLinkedin /></i>
+              </div>
+              <div>
+              <i><IoLogoLinkedin /></i>
+              </div>
+            </div>
           </div>
           <div className="rounded-2xl p-6 bg-slate-800 flex-1 min-w-[240px] max-w-xs">
             <img
@@ -117,6 +125,14 @@ export default function About() {
             <div className="text-center">
               <h1 className="text-white font-bold text-xl">Alyssa Atkinson</h1>
               <h3 className="text-slate-300 mt-2">COO</h3>
+            </div>
+            <div className='flex justify-center mt-2 space-x-4 text-white text-2xl md:text-3xl lg:text-4xl'>
+              <div>
+                <i><IoLogoLinkedin /></i>
+              </div>
+              <div>
+              <i><IoLogoLinkedin /></i>
+              </div>
             </div>
           </div>
           <div className="rounded-2xl p-6 bg-slate-800 flex-1 min-w-[240px] max-w-xs">
@@ -129,13 +145,21 @@ export default function About() {
               <h1 className="text-white font-bold text-xl">Jordan Jackson</h1>
               <h3 className="text-slate-300 mt-2">CTO</h3>
             </div>
+            <div className='flex justify-center mt-2 space-x-4 text-white text-2xl md:text-3xl lg:text-4xl'>
+              <div>
+                <i><IoLogoLinkedin /></i>
+              </div>
+              <div>
+              <i><IoLogoLinkedin /></i>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <section className="isolated overflow-hidden dark:bg-slate-800 px-6 lg:px-10">
         <div className="w-full h-auto rounded-lg mb-4 mt-14 flex flex-col lg:flex-row items-center lg:items-start lg:pl-28">
           <img
-            className="w-28 h-28 lg:w-32 lg:h-32 rounded-2xl mb-4 lg:mb-0 lg:mr-8"
+            className="w-96 h-96 lg:w-112 lg:h-112 rounded-2xl mb-4 lg:mb-0 lg:mr-8"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROQ-4Iue5GllXgqoVIbuStLOJ49ot8DFslQQ&s"
             alt="User Profile"
           />
@@ -160,38 +184,21 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className='pt-16 '>
-        <div className='relative bg-slate-400'>
-          <div className='relative h-80 overflow-hidden md:absolute md:left-0 md:h-full md:w-1/3 lg-1/3'>
-            <img
-              className="w-full h-auto mb-4 "
-              src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
-              alt="Jordan Jackson"
-            /     >
-            <div>
-              <div className="text-center lg:text-left ">
-            <h1 className="text-black dark:text-white text-lg lg:text-xl mb-2">
-              "HomeEase has transformed the way I manage home maintenance. The
-              professionals are reliable,
-              and the blockchain payment system gives me
-              peace of mind."
-            </h1>
-            <div className="mt-4">
-              <h3 className="text-slate-700 dark:text-slate-300 text-base lg:text-lg font-semibold">
-                Leonard Krasner
-              </h3>
-              <h3 className="text-slate-500 dark:text-slate-400 text-sm lg:text-base">
-                Homeowner
-              </h3>
-            </div>
-          </div>
-            </div>
-            </div>
-           <div className='relative mx-auto max-w-7xl py-16 sm:py-20 lg:px-8  lg:py-32'>
-          </div>
-           
-          
-        </div>
+      <section>
+      <div class="flex flex-col md:flex-row items-center justify-center bg-slate-400 p-8">
+    <div class="w-full md:w-1/2 flex justify-center md:justify-start">
+    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdAQ8cJMGFqtu6uAwpiKbFq4-XF6s0IK2PGA&s"
+          alt="Home Maintenance" class="h-80 md:h-96 w-full md:w-full object-cover rounded"/>
+</div>
+  <div class="w-full md:w-1/2 text-center md:text-left mt-8 md:mt-0 md:pl-12">
+    <h3 className='font-bold text-green-600'>Effortless Home Maintenance</h3>
+        <h2 class="text-2xl md:text-3xl font-semibold text-gray-800">Join HomeEase Today</h2>
+        <p class="text-gray-600 mt-4">Experience the convenience of professional home maintenance services. Sign up now and let us take care of your home.</p>
+        <button class="mt-6 bg-green-500 text-white py-2 px-6 rounded-2xl hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-opacity-50">
+            Get Started
+        </button>
+    </div>
+</div>
       </section>
        <section className="w-full"> 
    <nav className="bg-gray-100 dark:bg-slate-950 py-20 px-4 lg:py-8 lg:px-10">
