@@ -213,39 +213,39 @@ export default function Services() {
 
                     <div className="font-medium text-2xl flex flex-col items-center w-full sm:w-[45%] md:w-[30%] mb-8">
                         <div>
-                            <AiFillCustomerService className="text-[43px]" />
+                            <AiFillCustomerService className="text-[40px]" />
                         </div>
                         <div className="text-center ">
-                            <h1 className="text-[33px] font-semibold">Customer Support</h1>
+                            <h1 className="text-[31px] font-bold">Customer Support</h1>
                             <p className="font-thin text-[20px]">Get assistance with any inquiries or issues.</p>
-                            <button className="border p-2 rounded-2xl text-green-500 bg-slate-500 transition transform ease-in-out hover:scale-105">
-                                <span className="font-medium">Start a conversation</span>
+                            <button className="border p-2 rounded-2xl text-black bg-green-700 transition transform ease-in-out hover:scale-105">
+                                <span className="font-semibold">Start a conversation</span>
                             </button>
                         </div>
                     </div>
 
                     <div className="font-bold text-2xl flex flex-col items-center w-full sm:w-[45%] md:w-[30%] mb-8">
                         <div>
-                            <AiFillCustomerService className="text-[43px]" />
+                            <AiFillCustomerService className="text-[40px]" />
                         </div>
                         <div className="text-center">
-                            <h1 className="text-[33px] font-semibold">Service Information</h1>
+                            <h1 className="text-[31px] font-bold">Service Information</h1>
                             <p className="font-thin text-[20px]">Learn more about the services we offer</p>
-                            <button className="border p-2 rounded-2xl text-green-500 bg-slate-500 transition transform ease-in-out hover:scale-105">
-                                <span className="font-medium">Learn More</span>
+                            <button className="border p-2 rounded-2xl text-black bg-green-700 transition transform ease-in-out hover:scale-105">
+                                <span className="font-semibold">Learn More</span>
                             </button>
                         </div>
                     </div>
 
                     <div className="font-bold text-2xl flex flex-col items-center w-full sm:w-[45%] md:w-[30%] mb-8">
                         <div>
-                            <AiFillCustomerService className="text-[43px]" />
+                            <AiFillCustomerService className="text-[40px]" />
                         </div>
                         <div className="text-center">
-                            <h1 className="text-[33px] font-semibold">Partnerships</h1>
+                            <h1 className="text-[31px] font-bold">Partnerships</h1>
                             <p className="font-thin text-[20px]">Get assistance with any inquiries or issues.</p>
-                            <button className="border p-2 rounded-2xl text-green-500 bg-slate-500 transition transform ease-in-out hover:scale-105">
-                                <span className="font-medium ">Collaborate now</span>
+                            <button className="border p-2 rounded-2xl text-black bg-green-700 transition transform ease-in-out hover:scale-105">
+                                <span className="font-semibold ">Collaborate now</span>
                             </button>
                         </div>
                     </div>
