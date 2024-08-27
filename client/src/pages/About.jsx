@@ -63,7 +63,6 @@ export default function About() {
               HomeEase has established itself as a reliable platform for household maintenance, trusted by thousands of homeowners.
             </p>
           </div>
-
           <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-8 text-center text-white mt-9 mx-auto pt-10 px-4 sm:px-8 lg:px-32">
             <div className="flex flex-col items-center">
               <h2 className="text-xl md:text-2xl font-bold">5,000+</h2>
